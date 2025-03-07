@@ -21,7 +21,7 @@ function requestlogger(request, response, next){
 app.use(requestlogger); // Applying middleware to all routes
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello Wrld!');
 });
 
 app.listen(port,()=>{
